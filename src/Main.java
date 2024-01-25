@@ -1,25 +1,17 @@
+package luis.maratona.java;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+        System.out.printf("Hello and welcome!");
 
-        // int, double, float, char, byte, short, long, boolean
-        // Tipos primitivos.
-        int idade = 10;
-        long numeroGrande = 1000000;
-        double salarioDouble = 2000;
-        float salarioFloat = 2500;
-        byte idadeByte = 10;
-        short idadeShort = 10;
-        boolean verdadeiro = true;
-        boolean falso = false;
-        char caractere = 10;
-
-
-
-        System.out.println("A idade é " + idade + " anos ");
-
-
-
+        for (int i = 1; i <= 5; i++) {
+            //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
+            // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
+            System.out.println("i = " + i);
+        }
     }
 }
